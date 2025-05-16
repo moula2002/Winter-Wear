@@ -1,0 +1,165 @@
+
+input {
+  position: absolute;
+  left: 100px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+li {
+  display: inline;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+#i{
+  position: relative;
+  left: 1000px;
+  bottom: 20px;
+}
+
+li {
+  cursor: pointer;
+}
+
+li:hover {
+  color: white;
+
+}
+
+
+#m {
+  background-color: black;
+  color: white;
+  width: 100px;
+  padding: 5px;
+}
+
+#v {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  cursor: pointer;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+  width: 400px;
+}
+
+
+div.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 30px;
+  padding-left: 30px;
+
+}
+
+#l {
+  background-color:rgb(231, 235, 237);
+
+}
+
+.container>div {
+  width: 250px;
+  margin: 20px;
+  margin-right: 20px;
+
+
+}
+
+
+div.container1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-left: 10px;
+  padding-left: 10px;
+}
+
+#k{
+  background-color:rgb(241, 245, 247);
+}
+
+.container1>div {
+  width: 250px;
+  margin: 20px;
+  margin-right: 132px;
+
+}
+
+div.container2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-left: 10px;
+  padding-left: 10px;
+}
+
+#s{
+  background-color:rgb(241, 245, 247);
+}
+
+.container2>div {
+  width: 250px;
+  margin: 20px;
+  margin-right: 132px;
+
+}
+
+h4 {
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  background-color:rgb(45, 54, 56);
+  color: whitesmoke;
+  width: 350px;
+}
+
+footer {
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 20px;
+
+  bottom: 0;
+  width: 100%;
+  border-top: 1px solid #ccc;
+}
+
+.footer-content {
+  margin-bottom: 10px;
+}
+
+.footer-content p {
+  margin: 5px 0;
+}
+
+.footer-content a {
+  color: #333;
+  text-decoration: none;
+}
+
+.footer-content a:hover {
+  text-decoration: underline;
+}
+
+.social-media {
+  margin-top: 10px;
+}
+
+.social-media a {
+  margin: 0 10px;
+  display: inline-block;
+}
+
+.social-media img {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+}
